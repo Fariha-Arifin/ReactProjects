@@ -1,0 +1,15 @@
+.Person{
+
+    width: 60%;
+    margin: 20px auto;
+    padding: 26px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px olive; /*x,y,z order a kaz kore*/
+    text-align: center;
+}
+
+@media(min-width : 500px){
+    .Person{
+        width: 450;
+    }
+}
